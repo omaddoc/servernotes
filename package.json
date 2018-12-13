@@ -1,0 +1,33 @@
+{
+  "name": "lsnotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luishrd/lsnotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luishrd/lsnotes/issues"
+  },
+  "homepage": "https://github.com/luishrd/lsnotes#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "knex": "^0.16.2",
+    "knex-cleaner": "^1.1.4",
+    "pg": "^7.7.1",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
